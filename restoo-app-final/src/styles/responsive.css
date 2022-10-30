@@ -1,0 +1,114 @@
+/* SMALL RESPONSIVE START */
+@media screen and (max-width: 599px){
+    #hamburgerButton {
+        color: var(--white);
+        font-size: 18px;
+    }
+
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+    }
+
+    .hero .text-home h1 {
+      font-size: 2em;
+    }
+  
+    .hero .text-home h1 {
+      font-size: 2em;
+    }
+  
+    .explore-restaurant .container{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .resto .resto-info {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .resto .resto-overview .review .review-card {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    #formReview {
+      width: 100%;
+    }
+  
+    footer {
+      flex-direction: column;
+    }
+  }
+  /* SMALL RESPONSIVE END */
+  
+  /* MEDIUM RESPONSIVE START */
+  @media screen and (min-width: 600px){
+    .app-bar {
+      grid-template-columns: 1fr auto;
+      padding: 3px 5px;
+    }
+   
+    .app-bar .app-bar__brand h1 {
+      font-size: 1.5em;
+    }
+   
+    .app-bar .app-bar__menu {
+      display: none;
+    }
+   
+    .app-bar .app-bar__navigation {
+      position: static;
+      width: 100%;
+    }
+   
+    .app-bar .app-bar__navigation ul li {
+      display: inline-block;
+    }
+   
+    .app-bar .app-bar__navigation ul li a {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .hero .text-home h1 {
+      font-size: 3em;
+    }
+  
+    .explore-restaurant .container{
+      grid-template-columns: repeat(2, 1fr);
+    }
+   
+    .resto .resto-info {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    #formReview {
+      width: 100%;
+    }
+    
+  }
+  /* MEDIUM RESPONSIVE END */
+  
+  /* LARGE RESPONSIVE START */
+  @media screen and (min-width: 1200px){
+    .hero .text-home h1 {
+      font-size: 4em;
+    }
+  
+    .explore-restaurant .container{
+      padding: 20px;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }  
+  
+    .explore-restaurant .container .card img {
+      width: 100%;
+    }
+    
+    .resto .resto-info {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  /* LARGE RESPONSIVE END */
